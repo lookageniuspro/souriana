@@ -1,0 +1,471 @@
+{
+  "categories": {
+    "veg": { "ar": "خضروات", "en": "Vegetables", "fr": "Légumes", "de": "Gemüse" },
+    "leafy": { "ar": "ورقيات وأعشاب", "en": "Leafy greens & herbs", "fr": "Feuilles & herbes", "de": "Blattgemüse & Kräuter" },
+    "fruit": { "ar": "فواكه وموالح", "en": "Fruits & citrus", "fr": "Fruits & agrumes", "de": "Obst & Zitrusfrüchte" }
+  },
+  "products": [
+    {
+      "id": "tomato",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "طماطم", "en": "Tomatoes", "fr": "Tomates", "de": "Tomaten" },
+      "short": {
+        "ar": "حبة متجانسة بحمرة زاهية، خلو من العفن، تصلب 8–10 أيام",
+        "en": "Uniform fruit with bright red colour, free from defects, 8–10 days shelf life",
+        "fr": "Fruit homogène à rouge vif, sans défauts, conservation 8 à 10 jours",
+        "de": "Einheitliche Frucht, leuchtend rot, ohne Macken, 8–10 Tage haltbar"
+      },
+      "grades": { "ar": "ممتاز / صوب", "en": "Premium / Greenhouse", "fr": "Premium / Serre", "de": "Premium / Gewächshaus" },
+      "weight": { "ar": "6–12 كجم / كرتونة", "en": "6–12 kg per carton", "fr": "6–12 kg par carton", "de": "6–12 kg je Karton" },
+      "local": { "min": 7, "max": 15 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حاوية 40 قدم / 5 طن", "en": "1×40' container / 5 tons", "fr": "1 conteneur 40' / 5 tonnes", "de": "1×40'-Container / 5 Tonnen" },
+        "packing": { "ar": "كرتونة 6–10 كجم", "en": "6–10 kg carton", "fr": "Carton 6–10 kg", "de": "6–10 kg Karton" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "potato",
+      "cat": "veg",
+      "icon": "ri-shape-2-line",
+      "name": { "ar": "بطاطس", "en": "Potatoes", "fr": "Pommes de terre", "de": "Kartoffeln" },
+      "short": {
+        "ar": "درنوات سليمة بقشرة رقيقة، أحجام متجانسة، مثالية للتحمير",
+        "en": "Intact tubers with thin skin, uniform sizing, ideal for boiling",
+        "fr": "Tubercules sains à peau fine, calibre homogène, idéaux à la vapeur",
+        "de": "Intakte Knollen mit dünner Schale, einheitliche Größe, ideal zum Kochen"
+      },
+      "grades": { "ar": "ممتاز / تحمير", "en": "Premium / Ware", "fr": "Premium / Consommation", "de": "Premium / Salzkartoffel" },
+      "weight": { "ar": "10–25 كجم / كيس", "en": "10–25 kg per bag", "fr": "10–25 kg par sac", "de": "10–25 kg je Sack" },
+      "local": { "min": 16, "max": 22 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حاوية 20 قدم", "en": "1×20' container", "fr": "1 conteneur 20'", "de": "1×20'-Container" },
+        "packing": { "ar": "كيس 10–25 كجم / شباك", "en": "10–25 kg bag / mesh sack", "fr": "Sac 10–25 kg / filet", "de": "10–25 kg Sack / Netzsack" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "onion",
+      "cat": "veg",
+      "icon": "ri-shape-2-line",
+      "name": { "ar": "بصل أبيض / أحمر", "en": "Onions (white / red)", "fr": "Oignons (blancs / rouges)", "de": "Zwiebeln (weiß / rot)" },
+      "short": {
+        "ar": "رؤوس متماسكة، قشرة سميكة تُطيل التخزين حتى 4 شهور",
+        "en": "Firm bulbs with dry skin, storage life up to 4 months",
+        "fr": "Bulbes fermes à peau sèche, conservation jusqu'à 4 mois",
+        "de": "Feste Zwiebeln mit trockener Schale, Lagerfähigkeit bis 4 Monate"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "10–25 كجم / كيس", "en": "10–25 kg per bag", "fr": "10–25 kg par sac", "de": "10–25 kg je Sack" },
+      "local": { "min": 15, "max": 22 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حاوية 20 قدم", "en": "1×20' container", "fr": "1 conteneur 20'", "de": "1×20'-Container" },
+        "packing": { "ar": "كيس 10–25 كجم", "en": "10–25 kg bag", "fr": "Sac 10–25 kg", "de": "10–25 kg Sack" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "zucchini",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "كوسة", "en": "Zucchini", "fr": "Courgettes", "de": "Zucchini" },
+      "short": {
+        "ar": "حبوب صغيرة مستديمة، عرض ممتاز للمطاعم والمحلات",
+        "en": "Small uniform fruit, excellent retail presentation",
+        "fr": "Petit fruit régulier, très bonne présentation en linéaire",
+        "de": "Kleine gleichmäßige Frucht, hervorragende Handelsaufmachung"
+      },
+      "grades": { "ar": "ممتاز / صوب", "en": "Premium / Greenhouse", "fr": "Premium / Serre", "de": "Premium / Gewächshaus" },
+      "weight": { "ar": "5–10 كجم / كرتونة", "en": "5–10 kg per carton", "fr": "5–10 kg par carton", "de": "5–10 kg je Karton" },
+      "local": { "min": 10, "max": 16 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 5–10 كجم", "en": "5–10 kg carton", "fr": "Carton 5–10 kg", "de": "5–10 kg Karton" },
+        "certs": { "ar": "GlobalGAP، سلسلة تبريد", "en": "GlobalGAP, cold chain", "fr": "GlobalGAP, chaîne du froid", "de": "GlobalGAP, Kühlkette" },
+        "note": { "ar": "قابل للتلف — جدولة شحن قصيرة", "en": "Perishable — short shipping schedule", "fr": "Périssable — expédition rapide", "de": "Verderblich — kurzer Versandplan" }
+      }
+    },
+    {
+      "id": "cucumber-baladi",
+      "cat": "veg",
+      "icon": "ri-seedling-line",
+      "name": { "ar": "خيار بلدي", "en": "Local Cucumber", "fr": "Concombre local (baladi)", "de": "Lokale Gurke (Baladi)" },
+      "short": {
+        "ar": "قشرة رقيقة وبذور خفيفة، طعم مميز للتطبيقات المحلية",
+        "en": "Thin skin and light seeds, distinctive local taste",
+        "fr": "Peau fine, graines légères, goût local authentique",
+        "de": "Dünne Schale, wenige Kerne, intensiver lokaler Geschmack"
+      },
+      "grades": { "ar": "بلدي", "en": "Baladi (local)", "fr": "Baladi (local)", "de": "Baladi (lokal)" },
+      "weight": { "ar": "5–10 كجم / كرتونة", "en": "5–10 kg per carton", "fr": "5–10 kg par carton", "de": "5–10 kg je Karton" },
+      "local": { "min": 8, "max": 12 },
+      "export": {
+        "available": false,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "غير متاح للتصدير", "en": "Not available for export", "fr": "Non disponible à l'export", "de": "Nicht exportiert" },
+        "packing": { "ar": "توريد محلي فقط", "en": "Local supply only", "fr": "Approvisionnement local uniquement", "de": "Nur lokale Lieferung" },
+        "certs": { "ar": "توريد محلي", "en": "Local supply", "fr": "Approvisionnement local", "de": "Lokale Lieferung" }
+      }
+    },
+    {
+      "id": "cucumber-greenhouse",
+      "cat": "veg",
+      "icon": "ri-seedling-line",
+      "name": { "ar": "خيار صوب", "en": "Greenhouse Cucumber", "fr": "Concombre de serre", "de": "Gewächshausgurke" },
+      "short": {
+        "ar": "خيار صوب ناعم الملمس بلون أخضر فاتح وطول منتظم",
+        "en": "Smooth greenhouse cucumber, light green colour, uniform length",
+        "fr": "Concombre de serre lisse, vert clair, longueur régulière",
+        "de": "Glatte Gewächshausgurke, hellgrün, gleichmäßige Länge"
+      },
+      "grades": { "ar": "صوب", "en": "Greenhouse", "fr": "Serre", "de": "Gewächshaus" },
+      "weight": { "ar": "5–10 كجم / كرتونة", "en": "5–10 kg per carton", "fr": "5–10 kg par carton", "de": "5–10 kg je Karton" },
+      "local": { "min": 14, "max": 20 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 5–10 كجم", "en": "5–10 kg carton", "fr": "Carton 5–10 kg", "de": "5–10 kg Karton" },
+        "certs": { "ar": "GlobalGAP، سلسلة تبريد", "en": "GlobalGAP, cold chain", "fr": "GlobalGAP, chaîne du froid", "de": "GlobalGAP, Kühlkette" },
+        "note": { "ar": "قابل للتلف — جدولة شحن قصيرة", "en": "Perishable — short shipping schedule", "fr": "Périssable — expédition rapide", "de": "Verderblich — kurzer Versandplan" }
+      }
+    },
+    {
+      "id": "carrot",
+      "cat": "veg",
+      "icon": "ri-shape-2-line",
+      "name": { "ar": "جزر بدون عروش", "en": "Carrots (without tops)", "fr": "Carottes sans fanes", "de": "Möhren ohne Blattwerk" },
+      "short": {
+        "ar": "جذور مستوية ناعمة بدون عروش، لون برتقالي قوي",
+        "en": "Straight smooth roots without tops, deep orange colour",
+        "fr": "Racines lisses sans fanes, orange soutenu",
+        "de": "Glatte Wurzeln ohne Blattwerk, kräftig orange"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "10–20 كجم / كيس", "en": "10–20 kg per bag", "fr": "10–20 kg par sac", "de": "10–20 kg je Sack" },
+      "local": { "min": 11, "max": 15 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حاوية", "en": "1 container", "fr": "1 conteneur", "de": "1 Container" },
+        "packing": { "ar": "كيس 10–20 كجم", "en": "10–20 kg bag", "fr": "Sac 10–20 kg", "de": "10–20 kg Sack" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "green-beans",
+      "cat": "veg",
+      "icon": "ri-seedling-line",
+      "name": { "ar": "فاصوليا خضراء", "en": "Green Beans", "fr": "Haricots verts", "de": "Grüne Bohnen" },
+      "short": {
+        "ar": "قرون رفيعة بلا خيوط، لون أخضر فاتح ونضج متساوي",
+        "en": "Fine stringless pods, light green colour, even maturity",
+        "fr": "Gousses fines sans fil, vert clair, maturité homogène",
+        "de": "Feine fadlose Hülsen, hellgrün, gleichmäßige Reife"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "5–10 كجم / صندوق مبرد", "en": "5–10 kg per chilled box", "fr": "5–10 kg par caisse réfrigérée", "de": "5–10 kg je Kühlbox" },
+      "local": { "min": 20, "max": 25 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "صندوق مبرد 5–10 كجم", "en": "Chilled box 5–10 kg", "fr": "Caisse réfrigérée 5–10 kg", "de": "Kühlbox 5–10 kg" },
+        "certs": { "ar": "GlobalGAP، سلسلة تبريد", "en": "GlobalGAP, cold chain", "fr": "GlobalGAP, chaîne du froid", "de": "GlobalGAP, Kühlkette" },
+        "note": { "ar": "قابل للتلف — جدولة شحن قصيرة", "en": "Perishable — short shipping schedule", "fr": "Périssable — expédition rapide", "de": "Verderblich — kurzer Versandplan" }
+      }
+    },
+    {
+      "id": "eggplant-baladi",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "باذنجان بلدي", "en": "Baladi Eggplant", "fr": "Aubergine baladi", "de": "Baladi-Aubergine" },
+      "short": {
+        "ar": "حبوب بيضاوية داكنة بلب أبيض كثيف ومذاق شوي",
+        "en": "Dark oval fruit with dense white flesh, ideal for grilling",
+        "fr": "Fruit ovale foncé à chair blanche dense, ideal pour le gril",
+        "de": "Dunkle ovale Frucht mit festem weißem Fleisch, ideal zum Grillen"
+      },
+      "grades": { "ar": "بلدي", "en": "Baladi (local)", "fr": "Baladi (local)", "de": "Baladi (lokal)" },
+      "weight": { "ar": "8–12 كجم / كرتونة", "en": "8–12 kg per carton", "fr": "8–12 kg par carton", "de": "8–12 kg je Karton" },
+      "local": { "min": 7, "max": 11 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 8–12 كجم", "en": "8–12 kg carton", "fr": "Carton 8–12 kg", "de": "8–12 kg Karton" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "eggplant-romi",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "باذنجان رومي", "en": "Roma Eggplant", "fr": "Aubergine romi", "de": "Roma-Aubergine" },
+      "short": {
+        "ar": "حبة مستطيلة بنفسجية لامعة منتشرة في التصدير",
+        "en": "Glossy purple oblong fruit, widely exported",
+        "fr": "Fruit oblong violet brillant, très exporté",
+        "de": "Glänzende längliche violette Frucht, stark exportiert"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "8–12 كجم / كرتونة", "en": "8–12 kg per carton", "fr": "8–12 kg par carton", "de": "8–12 kg je Karton" },
+      "local": { "min": 5, "max": 7 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 8–12 كجم", "en": "8–12 kg carton", "fr": "Carton 8–12 kg", "de": "8–12 kg Karton" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "eggplant-white",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "باذنجان أبيض", "en": "White Eggplant", "fr": "Aubergine blanche", "de": "Weiße Aubergine" },
+      "short": {
+        "ar": "لون أبيض ناصع بلب اسفنجي خفيف وحجم متوسط",
+        "en": "Bright white skin, light spongy flesh, medium size",
+        "fr": "Peau blanche pure, chair éponge légère, calibre moyen",
+        "de": "Reinweiße Schale, locker-schwammiges Fleisch, mittlere Größe"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "8–12 كجم / كرتونة", "en": "8–12 kg per carton", "fr": "8–12 kg par carton", "de": "8–12 kg je Karton" },
+      "local": { "min": 6, "max": 9 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 8–12 كجم", "en": "8–12 kg carton", "fr": "Carton 8–12 kg", "de": "8–12 kg Karton" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "pepper-baladi",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "فلفل رومي بلدي", "en": "Baladi Bell Pepper", "fr": "Poivron baladi", "de": "Baladi-Paprika" },
+      "short": {
+        "ar": "فلفل عريض مسطّح بألوان متدرجة وسماكة مناسبة للطهي",
+        "en": "Wide flat shoulder, varied colours, suitable flesh thickness",
+        "fr": "Épaule large et plate, couleurs variées, épaisseur adaptée",
+        "de": "Breite flache Schulter, differenzierte Farben, passende Wandstärke"
+      },
+      "grades": { "ar": "بلدي", "en": "Baladi (local)", "fr": "Baladi (local)", "de": "Baladi (lokal)" },
+      "weight": { "ar": "8–10 كجم / كرتونة", "en": "8–10 kg per carton", "fr": "8–10 kg par carton", "de": "8–10 kg je Karton" },
+      "local": { "min": 7, "max": 11 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 8–10 كجم", "en": "8–10 kg carton", "fr": "Carton 8–10 kg", "de": "8–10 kg Karton" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "pepper-hot",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "فلفل حامي", "en": "Hot Pepper", "fr": "Piment fort", "de": "Scharfer Pfeffer" },
+      "short": {
+        "ar": "فلفل حار أحمر أو أخضر، رائحة قوية ومحتوى كapsaicin مرتفع",
+        "en": "Red or green hot pepper, strong aroma, high capsaicin content",
+        "fr": "Piment fort rouge ou vert, arôme marqué, forte teneur en capsaïcine",
+        "de": "Scharfer roter oder grüner Pfeffer, intensives Aroma, hoher Capsaicingehalt"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "5–10 كجم / كرتونة", "en": "5–10 kg per carton", "fr": "5–10 kg par carton", "de": "5–10 kg je Karton" },
+      "local": { "min": 7, "max": 10 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 5–10 كجم", "en": "5–10 kg carton", "fr": "Carton 5–10 kg", "de": "5–10 kg Karton" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "pepper-color",
+      "cat": "veg",
+      "icon": "ri-plant-line",
+      "name": { "ar": "فلفل ألوان", "en": "Coloured Peppers", "fr": "Poivrons multicolores", "de": "Farbige Paprika" },
+      "short": {
+        "ar": "أربع ألوان (أحمر، أصفر، برتقالي، أخضر) بلمعان وسماكة عالية",
+        "en": "Four colours (red, yellow, orange, green), glossy with thick walls",
+        "fr": "Quatre couleurs (rouge, jaune, orange, vert), brillantes et charnues",
+        "de": "Vier Farben (rot, gelb, orange, grün), glänzend und dickwandig"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "5–8 كجم / كرتونة", "en": "5–8 kg per carton", "fr": "5–8 kg par carton", "de": "5–8 kg je Karton" },
+      "local": { "min": 30, "max": 40 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "كرتونة 5–8 كجم", "en": "5–8 kg carton", "fr": "Carton 5–8 kg", "de": "5–8 kg Karton" },
+        "certs": { "ar": "GlobalGAP، سلسلة تبريد", "en": "GlobalGAP, cold chain", "fr": "GlobalGAP, chaîne du froid", "de": "GlobalGAP, Kühlkette" }
+      }
+    },
+    {
+      "id": "molokhia",
+      "cat": "leafy",
+      "icon": "ri-leaf-line",
+      "name": { "ar": "ملوخية", "en": "Molokhia", "fr": "Molokhia", "de": "Molokhia" },
+      "short": {
+        "ar": "أوراق طازجة اللون، قابلة للتقطيع والتجميد بجودة ممتازة",
+        "en": "Fresh green leaves, ready to chop and quick-frozen",
+        "fr": "Feuilles vertes fraîches, prêtes à hacher et surgelables",
+        "de": "Frische grüne Blätter, hackfertig und tiefkühlgeeignet"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "5–10 كجم / صندوق مبرد", "en": "5–10 kg per chilled box", "fr": "5–10 kg par caisse réfrigérée", "de": "5–10 kg je Kühlbox" },
+      "local": { "min": 6, "max": 9 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "صندوق مبرد 5–10 كجم", "en": "Chilled box 5–10 kg", "fr": "Caisse réfrigérée 5–10 kg", "de": "Kühlbox 5–10 kg" },
+        "certs": { "ar": "GlobalGAP، سلسلة تبريد", "en": "GlobalGAP, cold chain", "fr": "GlobalGAP, chaîne du froid", "de": "GlobalGAP, Kühlkette" },
+        "note": { "ar": "قابل للتلف — جدولة شحن قصيرة", "en": "Perishable — short shipping schedule", "fr": "Périssable — expédition rapide", "de": "Verderblich — kurzer Versandplan" }
+      }
+    },
+    {
+      "id": "spinach",
+      "cat": "leafy",
+      "icon": "ri-leaf-line",
+      "name": { "ar": "سبانخ", "en": "Spinach", "fr": "Épinards", "de": "Spinat" },
+      "short": {
+        "ar": "أوراق غضّة داكنة، غسل وتعبئة بعناية للمطاعم",
+        "en": "Tender dark leaves, washed and packed for restaurants",
+        "fr": "Feuilles tenderres foncées, lavées et conditionnées pour restaurants",
+        "de": "Zarte dunkle Blätter, gewaschen und für Restaurants verpackt"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "5–10 كجم / صندوق مبرد", "en": "5–10 kg per chilled box", "fr": "5–10 kg par caisse réfrigérée", "de": "5–10 kg je Kühlbox" },
+      "local": { "min": 15, "max": 20 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "صندوق مبرد 5–10 كجم", "en": "Chilled box 5–10 kg", "fr": "Caisse réfrigérée 5–10 kg", "de": "Kühlbox 5–10 kg" },
+        "certs": { "ar": "GlobalGAP، سلسلة تبريد", "en": "GlobalGAP, cold chain", "fr": "GlobalGAP, chaîne du froid", "de": "GlobalGAP, Kühlkette" },
+        "note": { "ar": "قابل للتلف — جدولة شحن قصيرة", "en": "Perishable — short shipping schedule", "fr": "Périssable — expédition rapide", "de": "Verderblich — kurzer Versandplan" }
+      }
+    },
+    {
+      "id": "ethiopian-spice",
+      "cat": "leafy",
+      "icon": "ri-leaf-line",
+      "name": { "ar": "قلقاس", "en": "Ethiopian Spice (Epazom)", "fr": "Épice éthiopienne (Epazom)", "de": "Äthiopische Würze (Epazom)" },
+      "short": {
+        "ar": "أوراق عطرية قوية النكهة، طلب مرتفع في أسواق التصدير",
+        "en": "Highly aromatic leaves with a strong flavour, high export demand",
+        "fr": "Feuilles très aromatiques au goût prononcé, forte demande à l'export",
+        "de": "Sehr aromatische Blätter mit intensivem Aroma, hohe Exportnachfrage"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "5–10 كجم / صندوق مبرد", "en": "5–10 kg per chilled box", "fr": "5–10 kg par caisse réfrigérée", "de": "5–10 kg je Kühlbox" },
+      "local": { "min": 9, "max": 13 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حسب الطلب", "en": "On request", "fr": "Sur demande", "de": "Auf Anfrage" },
+        "packing": { "ar": "صندوق مبرد 5–10 كجم", "en": "Chilled box 5–10 kg", "fr": "Caisse réfrigérée 5–10 kg", "de": "Kühlbox 5–10 kg" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" },
+        "note": { "ar": "قابل للتلف — جدولة شحن قصيرة", "en": "Perishable — short shipping schedule", "fr": "Périssable — expédition rapide", "de": "Verderblich — kurzer Versandplan" }
+      }
+    },
+    {
+      "id": "garlic",
+      "cat": "veg",
+      "icon": "ri-shape-2-line",
+      "name": { "ar": "ثوم", "en": "Garlic", "fr": "Ail", "de": "Knoblauch" },
+      "short": {
+        "ar": "فصوص متماسكة بيضاء عالية Trilobes، تجفيف ممتاز",
+        "en": "Firm white cloves, high trilobe ratio, excellent curing",
+        "fr": "Gousses fermes blanches, fort taux de trilobes, excellent séchage",
+        "de": "Feste weiße Zehen, hoher Trilobenanteil, gute Trocknung"
+      },
+      "grades": { "ar": "ممتاز", "en": "Premium", "fr": "Premium", "de": "Premium" },
+      "weight": { "ar": "10–25 كجم / كيس", "en": "10–25 kg per bag", "fr": "10–25 kg par sac", "de": "10–25 kg je Sack" },
+      "local": { "min": 20, "max": 35 },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حاوية", "en": "1 container", "fr": "1 conteneur", "de": "1 Container" },
+        "packing": { "ar": "كيس 10–25 كجم", "en": "10–25 kg bag", "fr": "Sac 10–25 kg", "de": "10–25 kg Sack" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    },
+    {
+      "id": "citrus",
+      "cat": "fruit",
+      "icon": "ri-apple-line",
+      "name": { "ar": "برتقال وموالح", "en": "Oranges & Citrus", "fr": "Oranges & agrumes", "de": "Orangen & Zitrusfrüchte" },
+      "short": {
+        "ar": "عصير ممتاز ونسبة حموضة متوازنة، مناسب للعصير والتسويق",
+        "en": "Excellent juice yield and balanced acidity, ideal for juice and retail",
+        "fr": "Excellent rendement en jus et acidité équilibrée, ideal pour jus et grande distribution",
+        "de": "Hoher Saftausbeute und ausgewogene Säure, ideal für Saft und Handel"
+      },
+      "grades": { "ar": "ممتاز / حسب الموسم", "en": "Premium / Seasonal", "fr": "Premium / de saison", "de": "Premium / saisonabhängig" },
+      "weight": { "ar": "10–18 كجم / كرتونة", "en": "10–18 kg per carton", "fr": "10–18 kg par carton", "de": "10–18 kg je Karton" },
+      "local": { "min": null, "max": null },
+      "export": {
+        "available": true,
+        "min": null,
+        "max": null,
+        "term": "FOB",
+        "moq": { "ar": "حاوية 40 قدم", "en": "1×40' container", "fr": "1 conteneur 40'", "de": "1×40'-Container" },
+        "packing": { "ar": "كرتونة 10–18 كجم", "en": "10–18 kg carton", "fr": "Carton 10–18 kg", "de": "10–18 kg Karton" },
+        "certs": { "ar": "GlobalGAP، شهادة فحص نباتي", "en": "GlobalGAP, phytosanitary certificate", "fr": "GlobalGAP, certificat phytosanitaire", "de": "GlobalGAP, Pflanzengesundheitszeugnis" }
+      }
+    }
+  ]
+}

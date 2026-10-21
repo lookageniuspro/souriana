@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://souriana.com/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://souriana.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://souriana.com/"/>
+  </url>
+  <url>
+    <loc>https://souriana.com/shop/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://souriana.com/shop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://souriana.com/en/shop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://souriana.com/fr/shop/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://souriana.com/de/shop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://souriana.com/shop/"/>
+  </url>
+  <url>
+    <loc>https://souriana.com/en/shop/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://souriana.com/shop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://souriana.com/en/shop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://souriana.com/fr/shop/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://souriana.com/de/shop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://souriana.com/shop/"/>
+  </url>
+  <url>
+    <loc>https://souriana.com/fr/shop/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://souriana.com/shop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://souriana.com/en/shop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://souriana.com/fr/shop/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://souriana.com/de/shop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://souriana.com/shop/"/>
+  </url>
+  <url>
+    <loc>https://souriana.com/de/shop/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://souriana.com/shop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://souriana.com/en/shop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://souriana.com/fr/shop/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://souriana.com/de/shop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://souriana.com/shop/"/>
+  </url>
+</urlset>
