@@ -24,6 +24,10 @@
 
 ## 2) الوضع الحالي للمشروع (STATE)
 
+**النشر الحالي:** GitHub Pages — المستودع `github.com/lookageniuspro/souriana` (عام) والتابع `https://lookageniuspro.github.io/souriana/`.
+النشر تلقائي عبر `.github/workflows/deploy.yml` عند كل push على `main` (الملفات المنشورة = `index.html`, `assets/`, `shop/`, `en/`, `fr/`, `de/`, `robots.txt`, `sitemap.xml`, الصور وملفات PDF؛ ولا يُنشر `build/` ولا `.github/` ولا هذا الملف).
+النطاق الإنتاجي المستهدف: `https://souriana.com/` (كل `canonical`/`hreflang`/`sitemap` تشير إليه) — راجع §4.
+
 ```
 Souriana/
 ├── index.html                ← الصفحة الرئيسية (HTML + CSS مستخرج + i18n JS مدمج)
